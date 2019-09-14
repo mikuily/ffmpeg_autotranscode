@@ -1,0 +1,2 @@
+# ffmpeg_autotranscode
+自动监听文件夹并调用ffmpeg的工具
