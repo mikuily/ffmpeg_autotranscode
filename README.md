@@ -26,5 +26,8 @@ ffmpeg参数可根据需要自行调整listening.py中的相关参数
 
 #TODO：
 	1、适配windows
+
 	2、增加自动压制字幕功能
+
 	3、不依赖crontab，实现在python内部完成计划任务监听
+	
