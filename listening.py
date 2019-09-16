@@ -11,7 +11,7 @@ def main():
 
 	start_list=glob.glob('*.start')	
 
-	process_file=open('%sprocess.txt' % data.root_dir,"r",encoding='utf-8')
+	process_file=open('process.txt',"r",encoding='utf-8')
 	while True:
 		pro_temp=process_file.readline()
 		if not pro_temp:
@@ -39,7 +39,7 @@ def main():
 			name_index=index
 			break
 	file_name=name_list[name_index]
-	process_file=open('%sprocess.txt' % data.root_dir,"a+",encoding='utf-8')
+	process_file=open('process.txt',"a+",encoding='utf-8')
 	process_file.write('%s\n' % name)
 	process_file.close()
 	
